@@ -43,7 +43,7 @@ const TestimonialSection = () => {
           },
         },
         {
-          body: "I love the renting feature. It is way cheaper to rent equipment here than anywhere else It have found. Highly recommend it!",
+          body: "I love the renting feature. It is way cheaper to rent equipment here than anywhere else I have found. Highly recommend it!",
           author: {
             name: "Emma Chen",
             handle: "emmac",
@@ -144,7 +144,7 @@ const TestimonialSection = () => {
         </svg>
       </div>
 
-      <div className="mx-auto max-w-7xl px-6 md:mt-32 lg:px-8">
+      <div className="mx-auto max-w-7xl px-6 md:mt-16 lg:px-8">
         <div className="flex items-center justify-center self-center px-4">
           <h3 className="z-50 text-center text-xl font-semibold text-gray-700 sm:text-2xl lg:ml-10 lg:mt-0 lg:text-3xl">
             Don&apos;t Just Take Our Word For It

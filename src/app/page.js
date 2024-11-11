@@ -99,11 +99,11 @@ export default function HomePage() {
             <div className="absolute -top-1/2 -left-1/2 w-full h-full bg-gradient-to-r from-teal-200/20 to-transparent rounded-full animate-spin-slow" />
           </div>
 
-          <h2 className="text-6xl font-extrabold mt-8 bg-clip-text text-transparent bg-gradient-to-r from-teal-600 to-teal-800 animate-fade-in">
+          <h2 className=" text-3xl md:text-6xl font-extrabold mt-8 bg-clip-text text-transparent bg-gradient-to-r from-teal-600 to-teal-800 animate-fade-in">
             Connect, Collaborate, Grow
           </h2>
           
-          <p className="text-xl text-gray-600 mb-10 max-w-3xl mx-auto animate-slide-up">
+          <p className=" text-base md:text-lg mt-4 text-gray-600 mb-10 max-w-3xl mx-auto animate-slide-up">
             Your comprehensive platform for campus networking, marketplace, and community engagement
           </p>
 
