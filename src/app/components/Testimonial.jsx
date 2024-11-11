@@ -25,7 +25,7 @@ const TestimonialSection = () => {
           },
         },
         {
-          body: "I organized a study group meet-up using the events feature. It was amazing to see how many students RSVP’d!",
+          body: "I organized a study group meet-up using the events feature. It was amazing to see how many students RSVP'd!",
           author: {
             name: "Sofia Lee",
             handle: "sofia_lee",
@@ -35,7 +35,7 @@ const TestimonialSection = () => {
       ],
       [
         {
-          body: "The discussions section helped me find friends in my major! It’s now my go-to for staying connected with campus events.",
+          body: "The discussions section helped me find friends in my major! It's now my go-to for staying connected with campus events.",
           author: {
             name: "Michael Green",
             handle: "michaelg",
@@ -43,7 +43,7 @@ const TestimonialSection = () => {
           },
         },
         {
-          body: "I love the renting feature. It’s way cheaper to rent equipment here than anywhere else I’ve found. Highly recommend it!",
+          body: "I love the renting feature. It's way cheaper to rent equipment here than anywhere else I've found. Highly recommend it!",
           author: {
             name: "Emma Chen",
             handle: "emmac",
@@ -51,7 +51,7 @@ const TestimonialSection = () => {
           },
         },
         {
-          body: "From books to dorm decor, this marketplace has everything! It’s super easy to post or find what you need.",
+          body: "From books to dorm decor, this marketplace has everything! It's super easy to post or find what you need.",
           author: {
             name: "Leo Martinez",
             handle: "leom",
@@ -61,7 +61,7 @@ const TestimonialSection = () => {
       ],
       [
         {
-          body: "I was able to find someone to share an internship drive with through the events section. It’s great for networking!",
+          body: "I was able to find someone to share an internship drive with through the events section. It's great for networking!",
           author: {
             name: "Priya Shah",
             handle: "priyashah",
@@ -69,7 +69,7 @@ const TestimonialSection = () => {
           },
         },
         {
-          body: "The discussions forum has helped me get insights on upcoming exams and study tips. It’s like having a study group at all times!",
+          body: "The discussions forum has helped me get insights on upcoming exams and study tips. It's like having a study group at all times!",
           author: {
             name: "James Taylor",
             handle: "jamest",
@@ -113,6 +113,7 @@ const TestimonialSection = () => {
       ],
     ],
   ];
+  
 
   const [visibleReviewsCount, setVisibleReviewsCount] = useState(2);
 
@@ -146,7 +147,7 @@ const TestimonialSection = () => {
       <div className="mx-auto max-w-7xl px-6 md:mt-32 lg:px-8">
         <div className="flex items-center justify-center self-center px-4">
           <h3 className="z-50 text-center text-xl font-semibold text-gray-700 sm:text-2xl lg:ml-10 lg:mt-0 lg:text-3xl">
-            Don't Just Take Our Word For It
+            Don&apos;t Just Take Our Word For It
           </h3>
         </div>
 
@@ -169,7 +170,7 @@ const TestimonialSection = () => {
                     {testimonial.map((item, itemIdx) => (
                       <figure key={itemIdx} className="mb-4 rounded-2xl p-6 shadow-lg"> {/* Added key here */}
                         <blockquote className="text-gray-600">
-                          <p>{`"${item.body}"`}</p>
+                          <p>{`${item.body}`}</p>
                         </blockquote>
                         <figcaption className="mt-6 flex items-center gap-x-4">
                           <Image
