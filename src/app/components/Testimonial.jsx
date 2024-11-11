@@ -43,7 +43,7 @@ const TestimonialSection = () => {
           },
         },
         {
-          body: "I love the renting feature. It is way cheaper to rent equipment here than anywhere else I've found. Highly recommend it!",
+          body: "I love the renting feature. It is way cheaper to rent equipment here than anywhere else It have found. Highly recommend it!",
           author: {
             name: "Emma Chen",
             handle: "emmac",
